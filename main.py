@@ -26,7 +26,7 @@ if mode = L7:
   url = input(" Enter url : ")
   for rps range(time):
     sender = requests.get(url)
-    print("Response code: ", sender.status_code")
+    print("Response code: ", sender.status_code)
 
 elif mode = L4:
   ip = input(" Enter ip : ")
